@@ -16,7 +16,7 @@ import VolunteersScreen from './screens/VolunteersScreen';
 import SuppliesIcon from '../assets/icons/Supplies.svg';
 import FormsIcon from '../assets/icons/Forms.svg';
 import HouseIcon from '../assets/icons/House.svg';
-import CampsIcon from '../assets/icons/Camps.svg';
+import TentIcon from '../assets/icons/Tent.svg';
 import VolunteersIcon from '../assets/icons/Volunteers.svg';
 
 
@@ -27,35 +27,35 @@ const Stack = createNativeStackNavigator();
 function SuppliesStackScreen() {
     return (
     <Stack.Navigator>
-        <Stack.Screen name='Supplies' component={SuppliesScreen} options={{headerShown: false}}/>
+        <Stack.Screen name='SuppliesStack' component={SuppliesScreen} options={{headerShown: false}}/>
     </Stack.Navigator>
     )
 }
 function ChecklistsStackScreen() {
     return (
     <Stack.Navigator>
-        <Stack.Screen name='Checklists' component={ChecklistsScreen} options={{headerShown: false}}/>
+        <Stack.Screen name='ChecklistsStack' component={ChecklistsScreen} options={{headerShown: false}}/>
     </Stack.Navigator>
     )
 }
 function HomeStackScreen() {
     return (
     <Stack.Navigator>
-        <Stack.Screen name='Home' component={HomeScreen} options={{headerShown: false}}/>
+        <Stack.Screen name='HomeStack' component={HomeScreen} options={{headerShown: false}}/>
     </Stack.Navigator>
     )
 }
 function CampsStackScreen() {
     return (
     <Stack.Navigator>
-        <Stack.Screen name='Camps' component={CampsScreen} options={{headerShown: false}}/>
+        <Stack.Screen name='CampsStack' component={CampsScreen} options={{headerShown: false}}/>
     </Stack.Navigator>
     )
 }
 function VolunteersStackScreen() {
     return (
     <Stack.Navigator>
-        <Stack.Screen name='Volunteers' component={VolunteersScreen} options={{headerShown: false}}/>
+        <Stack.Screen name='VolunteersStack' component={VolunteersScreen} options={{headerShown: false}}/>
     </Stack.Navigator>
     )
 }
@@ -78,7 +78,7 @@ export default function MainContainer(){
                     }else if(routeName === 'Home'){
                         return <HouseIcon />;
                     }else if(routeName === 'Camps'){
-                        return <CampsIcon />;
+                        return <TentIcon />;
                     }else if(routeName === 'Volunteers'){
                         return <VolunteersIcon />;
                     }
@@ -92,8 +92,7 @@ export default function MainContainer(){
                 tabBarStyle: [
                 {
                     "display": "flex",
-                    "paddingTop": "1%",
-                    "paddingBottom": "5%"
+                    "paddingBottom": 20
                 },
                 null
                 ]
