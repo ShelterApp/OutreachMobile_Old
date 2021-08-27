@@ -91,8 +91,7 @@ export default function MainContainer(){
                 },
                 tabBarStyle: [
                 {
-                    "display": "flex",
-                    "paddingBottom": 20
+                    "display": "flex"
                 },
                 null
                 ]
