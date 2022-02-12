@@ -12,4 +12,23 @@ Connecting Outreach Volunteers to unhoused Encampments
 
 # Steps to run backend branch
 
+1. Clone or fork respository
+2. Configure Android SDK or Xcode for your machine
+3. Run project
+
 # List of things to do
+1. Create initial collections for OutreachApp in MongoDB
+2. Create splash screen in webapp
+3. Finalize supplies category/subcategory list
+4. Basic CRUD operations for Categories
+5. Basic CRUD operations for Organization
+6. Basic CRUD operations for User
+7. Basic CRUD operations on Encampment
+8. Basic CRUD operations on Requests
+9. Create screen for  user flow
+10. Create user signup screens
+11. Have splashscreen integrated in frontend
+12. Create screens for org admin/flow
+13. Create screens for org admin -supplies
+14. Create screens for adding camps
+15. Create screens for volunteer flow
