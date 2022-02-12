@@ -32,3 +32,8 @@ Connecting Outreach Volunteers to unhoused Encampments
 13. Create screens for org admin -supplies
 14. Create screens for adding camps
 15. Create screens for volunteer flow
+
+# Workflow
+1. Eject Expo from main branch
+2. Reconcile main and backend branch
+3. Create tiered user Oauth & Login structure
