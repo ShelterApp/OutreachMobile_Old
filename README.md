@@ -5,6 +5,10 @@ Connecting Outreach Volunteers to unhoused Encampments
 
 I ejected expo from this project and got the project to run in Android Studio on my Windows machine. So expo should not work if you try to use it. There are still lingering expo modules in the node modules folder that I need to delete (as well as yarn.lock), so I need to do a more thorough cleaning, but this basically works as of today, right now. Now I have to decided how to reconcile the main branch and the backend branch or if the backend branch should just be deleted. So I probably try and do a better expo cleaning to make sure there are no lingering packages and then figure out what to do with the backend branch. 
 
+02/25/2022
+
+I added the REALM cli to the project and created a realm app. I'll probably end up deleting the backend branch as it's not really necessary. It has less going for it than the main branch. I'll probably mess around with the REALM cli for a few days first and teach myself some things. 
+
 # Steps to run main branch or backend branch
 
 1. Clone or fork respository
@@ -29,6 +33,4 @@ I ejected expo from this project and got the project to run in Android Studio on
 15. Create screens for volunteer flow
 
 # Workflow
-1. Eject Expo from main branch 
-2. Reconcile main and backend branch
-3. Create tiered user Oauth & Login structure
+1. Create tiered user Oauth & Login structure
