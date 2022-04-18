@@ -11,14 +11,15 @@
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-native": "~0.63.4",
-    "react-native-safe-area-context": "^3.2.0",
-    "react-native-screens": "^3.5.0",
-    "react-native-svg": "^12.1.1",
-    "react-native-svg-transformer": "^0.14.3",
-    "react-native-web": "~0.13.12",
     "react-native-gesture-handler": "~1.10.2",
     "react-native-reanimated": "~2.2.0",
-    "react-native-unimodules": "0.14.10"
+    "react-native-safe-area-context": "^3.2.0",
+    "react-native-screens": "^3.5.0",
+    "react-native-splash-screen": "^3.3.0",
+    "react-native-svg": "^12.1.1",
+    "react-native-svg-transformer": "^0.14.3",
+    "react-native-unimodules": "0.14.10",
+    "react-native-web": "~0.13.12"
   },
   "devDependencies": {
     "@babel/core": "^7.9.0",
