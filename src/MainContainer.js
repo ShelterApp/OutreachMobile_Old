@@ -91,7 +91,7 @@ export default function MainContainer(){
                 },
                 tabBarStyle: [
                 {
-                    "display": "flex"
+                   "display": "flex"
                 },
                 null
                 ]

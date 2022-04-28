@@ -27,11 +27,11 @@ public class MainActivity extends ReactActivity {
 //     // Below line is handled by '@expo/configure-splash-screen' command and it's discouraged to modify it manually
 //   }
 
-  @Override
-  protected void onCreate(Bundle savedInstanceState) {
-      SplashScreen.show(this);
-      super.onCreate(savedInstanceState);
-  }
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        SplashScreen.show(this);
+        super.onCreate(savedInstanceState);
+    }
 
 
     /**

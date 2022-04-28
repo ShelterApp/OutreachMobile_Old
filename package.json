@@ -18,7 +18,6 @@
     "react-native-splash-screen": "^3.3.0",
     "react-native-svg": "^12.1.1",
     "react-native-svg-transformer": "^0.14.3",
-    "react-native-unimodules": "0.14.10",
     "react-native-web": "~0.13.12"
   },
   "devDependencies": {

@@ -1132,42 +1132,6 @@
     "exec-sh" "^0.3.2"
     "minimist" "^1.2.0"
 
-"@expo/config-plugins@^3.0.0", "@expo/config-plugins@3.0.7":
-  "integrity" "sha512-7YOoFtxB6XqDil+OlGXi7iredKHxXVFCAOIVfFyEDzO3oo0gBmWGmUnHgrPDvpMj0q+adCCh5BL8OcvGfc9ITQ=="
-  "resolved" "https://registry.npmjs.org/@expo/config-plugins/-/config-plugins-3.0.7.tgz"
-  "version" "3.0.7"
-  dependencies:
-    "@expo/config-types" "^42.0.0"
-    "@expo/json-file" "8.2.33"
-    "@expo/plist" "0.0.13"
-    "debug" "^4.3.1"
-    "find-up" "~5.0.0"
-    "fs-extra" "9.0.0"
-    "getenv" "^1.0.0"
-    "glob" "7.1.6"
-    "resolve-from" "^5.0.0"
-    "semver" "^7.3.5"
-    "slash" "^3.0.0"
-    "xcode" "^3.0.1"
-    "xml2js" "^0.4.23"
-
-"@expo/config-plugins@2.0.4":
-  "integrity" "sha512-JGt/X2tFr7H8KBQrKfbGo9hmCubQraMxq5sj3bqDdKmDOLcE1a/EDCP9g0U4GHsa425J8VDIkQUHYz3h3ndEXQ=="
-  "resolved" "https://registry.npmjs.org/@expo/config-plugins/-/config-plugins-2.0.4.tgz"
-  "version" "2.0.4"
-  dependencies:
-    "@expo/config-types" "^41.0.0"
-    "@expo/json-file" "8.2.30"
-    "@expo/plist" "0.0.13"
-    "debug" "^4.3.1"
-    "find-up" "~5.0.0"
-    "fs-extra" "9.0.0"
-    "getenv" "^1.0.0"
-    "glob" "7.1.6"
-    "resolve-from" "^5.0.0"
-    "slash" "^3.0.0"
-    "xcode" "^3.0.1"
-    "xml2js" "^0.4.23"
 
 "@expo/config-types@^41.0.0":
   "integrity" "sha512-Ax0pHuY5OQaSrzplOkT9DdpdmNzaVDnq9VySb4Ujq7UJ4U4jriLy8u93W98zunOXpcu0iiKubPsqD6lCiq0pig=="
@@ -1188,7 +1152,6 @@
     "@babel/plugin-proposal-class-properties" "~7.12.13"
     "@babel/preset-env" "~7.12.13"
     "@babel/preset-typescript" "~7.12.13"
-    "@expo/config-plugins" "2.0.4"
     "@expo/config-types" "^41.0.0"
     "@expo/json-file" "8.2.30"
     "fs-extra" "9.0.0"
@@ -1199,22 +1162,7 @@
     "semver" "7.3.2"
     "slugify" "^1.3.4"
 
-"@expo/config@5.0.7":
-  "integrity" "sha512-7Wzao9uALHmRSf59FMsHk1vxW4m4alDCJmfo+enXnl5o6UYiCDYfjNXctMwnW+fBM3opta4FbmmPGIftfXOesw=="
-  "resolved" "https://registry.npmjs.org/@expo/config/-/config-5.0.7.tgz"
-  "version" "5.0.7"
-  dependencies:
-    "@babel/code-frame" "~7.10.4"
-    "@expo/config-plugins" "3.0.7"
-    "@expo/config-types" "^42.0.0"
-    "@expo/json-file" "8.2.33"
-    "getenv" "^1.0.0"
-    "glob" "7.1.6"
-    "require-from-string" "^2.0.2"
-    "resolve-from" "^5.0.0"
-    "semver" "7.3.2"
-    "slugify" "^1.3.4"
-    "sucrase" "^3.20.0"
+
 
 "@expo/json-file@8.2.30":
   "integrity" "sha512-vrgGyPEXBoFI5NY70IegusCSoSVIFV3T3ry4tjJg1MFQKTUlR7E0r+8g8XR6qC705rc2PawaZQjqXMAVtV6s2A=="
@@ -2963,29 +2911,17 @@
   "version" "11.0.1"
   dependencies:
     "@expo/config" "^4.0.0"
-    "expo-modules-core" "~0.2.0"
-    "uuid" "^3.3.2"
 
 "expo-error-recovery@~2.2.0":
   "integrity" "sha512-HKbu6VHAlfhoP7y+HaGJwJizoUTY2eBTBHAi1RE7l/r4sc+cAegTmwwqf/3AOR8C7VntDvuQKtW7NZIyA+62KQ=="
   "resolved" "https://registry.npmjs.org/expo-error-recovery/-/expo-error-recovery-2.2.0.tgz"
   "version" "2.2.0"
 
-"expo-file-system@~11.1.3":
-  "integrity" "sha512-FBRcD6ojrkrZiTZ8O7Fbo833HhZtkhKtLDj4RNZIMpF1i+ZBD2bmeMcfLMeRHNYcBeJno9C4AVXoNQFqDCGQDg=="
-  "resolved" "https://registry.npmjs.org/expo-file-system/-/expo-file-system-11.1.3.tgz"
-  "version" "11.1.3"
-  dependencies:
-    "@expo/config-plugins" "^3.0.0"
-    "expo-modules-core" "~0.2.0"
-    "uuid" "^3.4.0"
-
 "expo-font@~9.2.1":
   "integrity" "sha512-sT9nm2Dt1nTLz+Ir1fSpyzqH40eJX324Wu5sPyvT2Ivnmu2rw2rxt3gNa8Kvdb8BPRz4qrRvHR/E+YKMqa6ZgQ=="
   "resolved" "https://registry.npmjs.org/expo-font/-/expo-font-9.2.1.tgz"
   "version" "9.2.1"
   dependencies:
-    "expo-modules-core" "~0.2.0"
     "fontfaceobserver" "^2.1.0"
 
 "expo-keep-awake@~9.2.0":
@@ -3004,42 +2940,11 @@
     "find-up" "~5.0.0"
     "fs-extra" "^9.1.0"
 
-"expo-modules-core@~0.2.0":
-  "integrity" "sha512-inpfZ5X/BaTtbj2wG9PA9AC0MN8VyId6KSRlVuEg7+ziurHBy/kKDFxpOddUokhwiln2uhoYPSStJjR/tKypdw=="
-  "resolved" "https://registry.npmjs.org/expo-modules-core/-/expo-modules-core-0.2.0.tgz"
-  "version" "0.2.0"
-
 "expo-status-bar@~1.0.4":
   "integrity" "sha512-s7nc496D/Zn1NGiMJ5wu6HyIdXxbgGtmZZtbHm7rpbcmLdf28GmMSNHDx7M0t00BMhky7VAurTCUo+BJs8ugsw=="
   "resolved" "https://registry.npmjs.org/expo-status-bar/-/expo-status-bar-1.0.4.tgz"
   "version" "1.0.4"
 
-"expo@~42.0.1":
-  "integrity" "sha512-m8gqCLIMGf/i7XVAicocHOCOWYlLBLUyufGTXZfPHZ4xstSQUTB5PekzMoXoX115zocNbiNASMzy3SFIJ/MP8A=="
-  "resolved" "https://registry.npmjs.org/expo/-/expo-42.0.3.tgz"
-  "version" "42.0.3"
-  dependencies:
-    "@babel/runtime" "^7.1.2"
-    "@expo/metro-config" "^0.1.70"
-    "@expo/vector-icons" "^12.0.4"
-    "@unimodules/core" "~7.1.1"
-    "@unimodules/react-native-adapter" "~6.3.4"
-    "babel-preset-expo" "~8.4.1"
-    "cross-spawn" "^6.0.5"
-    "expo-application" "~3.2.0"
-    "expo-asset" "~8.3.3"
-    "expo-constants" "~11.0.1"
-    "expo-error-recovery" "~2.2.0"
-    "expo-file-system" "~11.1.3"
-    "expo-font" "~9.2.1"
-    "expo-keep-awake" "~9.2.0"
-    "fbemitter" "^2.1.1"
-    "invariant" "^2.2.2"
-    "md5-file" "^3.2.3"
-    "pretty-format" "^26.4.0"
-    "react-native-safe-area-context" "3.2.0"
-    "serialize-error" "^2.1.0"
-    "uuid" "^3.4.0"
 
 "extend-shallow@^1.1.2":
   "integrity" "sha1-Gda/lN/AnXa6cR85uHLSH/TdkHE="
@@ -5301,7 +5206,7 @@
 
 "react-native@*", "react-native@>=0.45.0", "react-native@>=0.50.0", "react-native@>=0.62.0-rc.0 <0.64.0", "react-native@https://github.com/expo/react-native/archive/sdk-42.0.0.tar.gz":
   "integrity" "sha512-qWR6pcG4yDu/Rthm+DvAS017rL38LbZFnJv/k4HL4ZUH/WhKuqC+stD7TlpaOBb3N2bkydm9s+GCa14T41MLEg=="
-  "resolved" "https://github.com/expo/react-native/archive/sdk-42.0.0.tar.gz"
+  "resolved" "https://github.com//react-native/archive/sdk-42.0.0.tar.gz"
   "version" "0.63.2"
   dependencies:
     "@babel/runtime" "^7.0.0"
