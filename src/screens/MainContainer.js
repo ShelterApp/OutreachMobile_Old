@@ -6,18 +6,19 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { Text, TextBase, Dimensions } from 'react-native';
 
 //Screens
-import HomeScreen from './screens/HomeScreen';
-import SuppliesScreen from './screens/SuppliesScreen/';
-import ChecklistsScreen from './screens/ChecklistsScreen';
-import CampsScreen from './screens/CampsScreen';
-import VolunteersScreen from './screens/VolunteersScreen';
+import HomeScreen from './HomeScreen';
+import SuppliesScreen from './SuppliesScreen';
+import ChecklistsScreen from './ChecklistsScreen';
+import CampsScreen from './CampsScreen';
+import VolunteersScreen from './VolunteersScreen';
 
 //Icons
-import SuppliesIcon from '../assets/icons/Supplies.svg';
-import FormsIcon from '../assets/icons/Forms.svg';
-import HouseIcon from '../assets/icons/House.svg';
-import TentIcon from '../assets/icons/Tent.svg';
-import VolunteersIcon from '../assets/icons/Volunteers.svg';
+
+import SuppliesIcon from '../assets/icons/Supplies'
+import FormsIcon from '../assets/icons/Forms';
+import HouseIcon from '../assets/icons/House';
+import TentIcon from '../assets/icons/Tent';
+import VolunteersIcon from '../assets/icons/Volunteers';
 
 
 const fullScreenWidth = Dimensions.get('window').width;

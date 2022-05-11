@@ -1,8 +1,8 @@
 import React from 'react';
 import SplashScreen from 'react-native-splash-screen';
-import SignInScreen from './src/screens/SignInScreen';
 import { useEffect } from 'react';
 import { SafeAreaView, StyleSheet, View } from 'react-native';
+import Navigation from './src/navigation';
 
 const App = () => {
 
@@ -13,7 +13,7 @@ const App = () => {
     }, []),
 
     <SafeAreaView style={styles.root}>
-      <SignInScreen />
+      <Navigation />
     </SafeAreaView> 
 
     );

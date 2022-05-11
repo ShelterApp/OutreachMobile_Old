@@ -2,30 +2,26 @@ import React, {useState} from 'react';
 import { View, Text, StyleSheet, useWindowDimensions, ScrollView } from 'react-native';
 import CustomInput from '../components/CustomInput';
 import CustomButton from '../components/CustomButton';
+import SocialSignInButtons from '../components/SocialSignInButtons';
+import { useNavigation } from '@react-navigation/native';
 
 const SignInScreen = () => {
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
 
+    const navigation = useNavigation();
+
     const onSignInPressed = () => {
         console.warn('Sign in');
+        navigation.navigate('HomeScreen');
     };
 
     const onForgotPasswordPressed = () => {
-        console.warn('Forgot Password?');
+        navigation.navigate('ForgotPassword');
     };
 
-    const onSignInFacebook = () => {
-        console.warn('Sign in with Facebook');
-    };
-    const onSignInGoogle = () => {
-        console.warn('Sign in with Google');
-    };
-    const onSignInApple = () => {
-        console.warn('Sign in with Apple');
-    };
     const onSignUpPressed = () => {
-        console.warn('Sign up!');
+        navigation.navigate('SignUp')
     };
     
     return (
@@ -47,21 +43,7 @@ const SignInScreen = () => {
              text="Forgot Password?"
              onPress={onForgotPasswordPressed} 
              type="TERTIARY"/>
-            <CustomButton
-             text="Sign In with Facebook"
-             onPress={onSignInFacebook}
-             bgColor="#E7EAF4"
-             fgColor="#4765A9"/>
-            <CustomButton
-             text="Sign In with Google"
-             onPress={onSignInGoogle}
-             bgColor="#FAE9EA"
-             fgColor="#DD4D44"/>
-            <CustomButton
-             text="Sign In with Apple"
-             onPress={onSignInApple}
-             bgColor="#e3e3e3"
-             fgColor="#363636"/>
+            <SocialSignInButtons />
             <CustomButton 
              text="Don't have an account? Create one!"
              onPress={onSignUpPressed} 
