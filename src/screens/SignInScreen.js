@@ -13,7 +13,7 @@ const SignInScreen = () => {
 
     const onSignInPressed = () => {
         console.warn('Sign in');
-        navigation.navigate('HomeScreen');
+        navigation.navigate('MainContainer');
     };
 
     const onForgotPasswordPressed = () => {

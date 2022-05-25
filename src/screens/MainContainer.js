@@ -65,7 +65,7 @@ const Tab = createBottomTabNavigator();
 
 export default function MainContainer(){
     return (
-        <NavigationContainer>
+        <NavigationContainer independent={true} >
             <Tab.Navigator
             initialRouteName='Home'
             screenOptions={({route}) => ({

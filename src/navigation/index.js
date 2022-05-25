@@ -7,8 +7,13 @@ import SignUpScreen from '../screens/SignUpScreen';
 import ConfirmEmailScreen from '../screens/ConfirmEmailScreen';
 import ForgotPasswordScreen from '../screens/ForgotPasswordScreen';
 import NewPasswordScreen from '../screens/NewPasswordScreen';
-import MainContainer from '../screens/MainContainer';
 import HomeScreen from '../screens/HomeScreen';
+import SuppliesScreen from '../screens/SuppliesScreen';
+import VolunteersScreen from '../screens/VolunteersScreen';
+import CampsScreen from '../screens/CampsScreen';
+import ChecklistsScreen from '../screens/ChecklistsScreen';
+import MainContainer from '../screens/MainContainer';
+
 
 const Stack = createNativeStackNavigator();
 
@@ -22,6 +27,11 @@ const Navigation = () => {
                 <Stack.Screen name="ForgotPassword" component={ForgotPasswordScreen} />
                 <Stack.Screen name="NewPassword" component={NewPasswordScreen} />
                 <Stack.Screen name="HomeScreen" component={HomeScreen} />
+                <Stack.Screen name="MainContainer" component={MainContainer} />
+                <Stack.Screen name="SuppliesScreen" component={SuppliesScreen} />
+                <Stack.Screen name="VolunteersScreen" component={VolunteersScreen} />
+                <Stack.Screen name="CampsScreen" component={CampsScreen} />
+                <Stack.Screen name="ChecklistsScreen" component={ChecklistsScreen} />
             </Stack.Navigator>
         </NavigationContainer>
     );
