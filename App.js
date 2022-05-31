@@ -3,6 +3,9 @@ import SplashScreen from 'react-native-splash-screen';
 import { useEffect } from 'react';
 import { SafeAreaView, StyleSheet, View } from 'react-native';
 import Navigation from './src/navigation';
+import Realm from "realm";
+
+
 
 const App = () => {
 
